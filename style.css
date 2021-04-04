@@ -20,6 +20,7 @@ body {
   width: auto;
   display: block;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .container {
   display: flex;
@@ -90,7 +91,8 @@ p {
 
 .about-paragraphs {
   display: flex;
-  margin: 30px 0;
+  margin: 30px 50px;
+  padding: 20px;
 }
 
 .about-paragraphs p {
@@ -103,6 +105,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  margin-bottom: 100px;
 }
 
 .email-link:hover {
