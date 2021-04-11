@@ -11,10 +11,6 @@
     display: block;
     justify-content: center;
   }
-
-  .home-img {
-    display: none;
-  }
 }
 body {
   width: auto;
@@ -22,13 +18,7 @@ body {
   justify-content: center;
   margin-bottom: 50px;
 }
-.container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  padding-bottom: 100px;
-}
+
 h1,
 h2,
 h3 {
@@ -57,6 +47,21 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-bottom: 100px;
+}
+.hero {
+  background-color: var(--secondary-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.home-img {
+  display: none;
 }
 
 .navigation-links {
